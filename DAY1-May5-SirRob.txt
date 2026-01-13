@@ -122,9 +122,9 @@ ip dhcp pool VOICEVLAN
    default-router 10.12.100.4
    domain-name VOICEVLAN.COM
    dns-server 10.12.1.10
-   option 150 ip
-10.12.100.8   
+   option 150 ip 10.12.100.8   
    END
+
 !!CREATING AND PLACING PORTS INSIDEAVLAN:
 ( LINE 103 to 141 PASTE TO COREBABA SWITCH )
 config t
@@ -672,6 +672,7 @@ exit
           
 sip-ua
 sip-server ipv4:192.168.k.1
+
 
 
 
