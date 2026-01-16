@@ -513,7 +513,7 @@ COREBABA/GLOBE:
 config t
 hostname GLOBE-ITO
 Int vlan 1
-standby 1 ip 10.__.1.6
+standby 1 ip 10.12.1.6
 standby 1 preempt
 standby 1 Priority 100
 end
@@ -729,6 +729,7 @@ how to get certified:
 2. Lab: NAT and DHCP:
 
 3. ask sa CHAT: "latest reivewer"
+
 
 
 
